@@ -43,7 +43,7 @@
             bindings = <
 &kp GRAVE     &kp Q  &kp W           &kp E         &kp R      &kp T                                           &kp Y       &kp U  &kp I           &kp O            &kp P     &mt RIGHT_BRACKET LEFT_BRACKET
 &kp LCTRL     &kp A  &kp S           &kp D         &kp F      &kp G                                           &kp H       &kp J  &kp K           &kp L            &kp SEMI  &mt SQT RCTRL
-&kp LEFT_ALT  &kp Z  &kp X           &kp C         &kp V      &kp B                                           &kp N       &kp M  &kp COMMA       &kp DOT          &kp SQT   &mt RALT BSLH
+&kp LEFT_ALT  &kp Z  &kp X           &kp C         &kp V      &kp B                                           &kp N       &kp M  &kp COMMA       &kp DOT          &kp FSLH  &mt RALT BSLH
                      &msc SCRL_DOWN  &msc SCRL_UP  &lt 2 TAB  &mt LSHIFT SPACE  &lt 1 RET    &lt 1 BACKSPACE  &kp DELETE  &none  &msc SCRL_LEFT  &msc SCRL_RIGHT
             >;
 
