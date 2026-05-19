@@ -150,6 +150,6 @@
 
     fast {
         layers = <7>;
-        input-processors = <&zip_xy_scaler 3 5>;
+        input-processors = <&zip_xy_scaler 4 5>;
     };
 };
