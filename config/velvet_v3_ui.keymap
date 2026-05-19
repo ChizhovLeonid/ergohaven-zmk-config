@@ -85,7 +85,7 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans    &mo 5     &mo 6     &trans                    &trans  &mo 6     &mo 5     &trans    &trans  &trans
+&trans  &trans  &mo 7     &mo 5     &mo 6     &trans                    &trans  &mo 6     &mo 5     &trans    &trans  &trans
 &trans  &trans  &mkp MB2  &mkp MB3  &mkp MB1  &trans                    &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans
 &trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
                 &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans
@@ -115,6 +115,18 @@
 
             display-name = "Sniper";
         };
+
+        fast {
+            bindings = <
+&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &trans  &mkp MB2  &mkp MB3  &mkp MB1  &trans                    &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans
+&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
+                &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans
+            >;
+
+            display-name = "Fast";
+        };
+
     };
 };
 
@@ -134,5 +146,10 @@
     sniper {
         layers = <6>;
         input-processors = <&zip_xy_scaler 1 16>;
+    };
+
+    fast {
+        layers = <7>;
+        input-processors = <&zip_xy_scaler 3 5>;
     };
 };
